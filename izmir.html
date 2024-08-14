@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İzmir İnfo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffe1ff;
+        }
+        header {
+            background-color: #b81414;
+            color: #ffff00;
+            padding: 20px;
+            text-align: center;
+        }
+        header img {
+            max-width: 150px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        main {
+            margin: 20px;
+        }
+        article.blog-post {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        article.blog-post h2 {
+            color: #333;
+        }
+        article.blog-post img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        article.blog-post p {
+            color: #555;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        /* Accordion Styles */
+        .accordion {
+            background-color: #b81414;
+            color: white;
+            cursor: pointer;
+            padding: 10px;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            transition: 0.4s;
+            border-radius: 8px;
+            width: 100%;
+            margin-bottom: 5px;
+        }
+        .accordion.active, .accordion:hover {
+            background-color: #d91919;
+        }
+        .panel {
+            padding: 0 18px;
+            background-color: white;
+            overflow: hidden;
+            max-height: 0;
+            transition: max-height 0.2s ease-out;
+            border-radius: 8px;
+        }
+        .panel p {
+            margin: 0;
+            color: #555;
+            line-height: 1.6;
+        }
+        .contact-info {
+            background-color: #b81414;
+            color: white;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+        .contact-info h2 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Fotoğraflar/DeWatermark.ai_1723635483224.png" alt="İzmir Bilgi Logo">
+        <h1>İzmir Bilgi</h1>
+        <p>Ege'nin incisi İzmir hakkındaki önemli bilgiler.</p>
+        <p>Turist ve ziyaretçi bilgi sayfası.</p>
+    </header>
+    <main>
+        <article class="blog-post">
+            <h2>İzmir'in Tarihi Yerleri</h2>
+            <img src="https://www.sixt.com.tr/storage/cache/2fe8b54b7be4726348fd2cec502da80a2cb2ce58.webp" alt="İzmir'in tarihi yerleri">
+            <button class="accordion">Kadifekale (Pagos Tepesi)</button>
+            <div class="panel">
+                <p>Kadifekale, İzmir'in merkezinde yer alan ve şehrin panoramik manzarasını sunan bir tepedir...</p>
+            </div>
+            
+            <button class="accordion">Agora (İzmir Agora’sı)</button>
+            <div class="panel">
+                <p>İzmir Agora’sı, Roma dönemine tarihlenen bir açık hava pazar yeridir...</p>
+            </div>
+            
+            <button class="accordion">Efes Antik Kenti</button>
+            <div class="panel">
+                <p>İzmir iline bağlı Selçuk ilçesinde yer alan Efes, antik dünyanın en önemli kentlerinden biridir...</p>
+            </div>
+            
+            <button class="accordion">Asansör</button>
+            <div class="panel">
+                <p>Asansör, İzmir'in Karataş semtinde yer alan ve 1907 yılında inşa edilen tarihi bir yapıdır...</p>
+            </div>
+            
+            <button class="accordion">Kemeraltı Çarşısı</button>
+            <div class="panel">
+                <p>Kemeraltı, İzmir’in en eski ve en canlı çarşılarından biridir...</p>
+            </div>
+            
+            <button class="accordion">Yassıada</button>
+            <div class="panel">
+                <p>Yassıada, İzmir’in doğusunda yer alan bir adadır...</p>
+            </div>
+            
+            <button class="accordion">İzmir Tarihi Saat Kulesi</button>
+            <div class="panel">
+                <p>İzmir’in simgelerinden biri olan Tarihi Saat Kulesi, 1901 yılında inşa edilmiştir...</p>
+            </div>
+            
+            <button class="accordion">St. Polycarp Kilisesi</button>
+            <div class="panel">
+                <p>St. Polycarp Kilisesi, İzmir’in en eski Hristiyan kiliselerinden biridir...</p>
+            </div>
+        </article>
+
+        <article class="blog-post">
+            <h2>İzmir Mutfağı</h2>
+            <img src="Fotoğraflar/1.png.png" alt="İzmir Mutfağı">
+            <button class="accordion">İzmir Mutfağı</button>
+            <div class="panel">
+                <p><strong>İzmir’in Yemek Kültürü: Bir Lezzet Yolculuğu</strong></p>
+                <p>İzmir, Türkiye’nin batısında, Ege Bölgesi’nde yer alan ve tarihi, kültürel zenginlikleriyle dikkat çeken bir şehir olarak bilinir...</p>
+                
+                <button class="accordion">Kısır</button>
+                <div class="panel">
+                    <p>Kısır, Türkiye genelinde popüler bir salata türü olsa da İzmir’deki kısır, bölgesel malzemeler ve tatlarla zenginleştirilir...</p>
+                </div>
+                
+                <button class="accordion">Boyoz</button>
+                <div class="panel">
+                    <p>Boyoz, İzmir’in simgelerinden biri olan bir hamur işidir...</p>
+                </div>
+                
+                <button class="accordion">Çömlek Fasulyesi</button>
+                <div class="panel">
+                    <p>İzmir mutfağının yöresel lezzetlerinden biri olan çömlek fasulyesi, adını pişirildiği çömlek kaplardan alır...</p>
+                </div>
+                
+                <button class="accordion">Sakızlı Muhallebi</button>
+                <div class="panel">
+                    <p>Sakızlı muhallebi, İzmir’in tatlı kültüründe özel bir yer tutar...</p>
+                </div>
+                
+                <button class="accordion">Kuzu Tandır</button>
+                <div class="panel">
+                    <p>Kuzu tandır, İzmir mutfağında özel bir yeri olan ve özellikle özel günlerde yapılan bir yemektir...</p>
+                </div>
+                
+                <button class="accordion">İzmir Köfte</button>
+                <div class="panel">
+                    <p>İzmir köfte, Türk mutfağında köfte çeşitlerinden biri olarak...</p>
+                </div>
+            </div>
+        </article>
+        <article class="blog-post">
+            <h2>İzmir Futbol Takımları</h2>
+            <img src="Fotoğraflar/indir.jfif" alt="İzmir Futbol Takımları">
+            <button class="accordion">Göztepe</button>
+            <div class="panel">
+                <p><strong>Kuruluş:</strong> 1925</p>
+                <p><strong>Başarılar:</strong> 1 Süper Lig Şampiyonluğu, 1 Türkiye Kupası, 2 Türkiye Süper Kupa.</p>
+            </div>
+            
+            <button class="accordion">Karşıyaka</button>
+            <div class="panel">
+                <p><strong>Kuruluş:</strong> 1912</p>
+                <p><strong>Başarılar:</strong> 1 Türkiye Kupası, 1 Türkiye Süper Kupa.</p>
+            </div>
+            
+            <button class="accordion">Altay</button>
+            <div class="panel">
+                <p><strong>Kuruluş:</strong> 1914</p>
+                <p><strong>Başarılar:</strong> 1 Süper Lig Şampiyonluğu, 1 Türkiye Kupası.</p>
+            </div>
+            
+            <button class="accordion">Altınordu</button>
+            <div class="panel">
+                <p><strong>Kuruluş:</strong> 1922</p>
+                <p><strong>Başarılar:</strong> 2 2. Lig Şampiyonluğu.</p>p>
+            </div>
+        </article>
+        <div class="contact-info">
+            <h2>İletişim Bilgileri</h2>
+            <p><strong>Adres:</strong> İzmir, Türkiye</p>
+            <p><strong>E-posta:</strong> info@izmirblog.com</p>
+            <p><strong>Telefon:</strong> +90 232 123 45 67</p>
+            
+            <h2>Feedback</h2>
+            <p><a href="">Feedback Gönder</a></p>
+            
+            <h2>İzmir'in Konumu</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4417.774658389481!2d27.1452435!3d38.4192291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c0a3a4a4a4a4a5%3A0x4a6f5c68d2c2b3e8!2zS8O8eXJt!5e0!3m2!1str!2str!4v1684337440372!5m2!1str!2str" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 İzmir blogları</p>
+    </footer>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
+</body>
+</html>
